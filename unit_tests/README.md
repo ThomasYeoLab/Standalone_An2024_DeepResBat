@@ -2,7 +2,7 @@
 
 ## Reference
 
--   An, L., Zhang, C., Wulan, N., Zhang, S., Chen, P., Ji, F., Ng, KK., Chen, C.,Zhou, J., Yeo, B.T., 2024. [DeepResBat: deep residual batch harmonization accounting for covariate distribution differences](https://doi.org/10.1101/2024.01.18.574145), BioRxiv
+-   An, L., Zhang, C., Wulan, N., Zhang, S., Chen, P., Ji, F., Ng, KK., Chen, C.,Zhou, J., Yeo, B.T., 2024. [DeepResBat: deep residual batch harmonization accounting for covariate distribution differences](https://doi.org/10.1016/j.media.2024.103354), Medical Image Analysis, 99, 103354.
 
 ---
 
