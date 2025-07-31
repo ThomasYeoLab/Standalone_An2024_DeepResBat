@@ -71,7 +71,7 @@ python -m examples.CBIG_DeepResBat_example --manova
 python -m examples.CBIG_DeepResBat_example --print_results
 ```
 
-P values for MMSE should be significant while p values for Age and Sex are not, given MMSE is "real" covarite.
+P values for MMSE should be significant while p values for AGE and SEX are not, given MMSE is "real" covarite.
 
 ---
 
