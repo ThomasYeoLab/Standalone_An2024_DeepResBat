@@ -27,7 +27,7 @@ python -m examples.CBIG_DeepResBat_example --gen_data
 Our DeepResBat utilizes nonlinear regression trees to estimate effects of covariates. Please refer to section 2.7.1 in manuscript for more details.
 
 ```
-python -m examples.CBIG_DeepResBat_example --est_covar_effects
+python -m examples.CBIG_DeepResBat_example --covar_effects
 ```
 
 ### 3. Generate covariate-free residuals
@@ -71,14 +71,7 @@ python -m examples.CBIG_DeepResBat_example --manova
 python -m examples.CBIG_DeepResBat_example --print_results
 ```
 
-You should see very close results as follow:
-
-| Beta | -log(P)  | PillarTrace |
-| ---- | -------- | ----------- |
-| AGE  | 0.173499 | 0.416988    |
-| SEX  | 0.433071 | 0.455762    |
-| MMSE | 4.039143 | 0.625207    |
-| ICV  | 0.940041 | 0.499431    |
+P values for MMSE should be significant while p values for AGE and SEX are not, given MMSE is "real" covarite.
 
 ---
 
