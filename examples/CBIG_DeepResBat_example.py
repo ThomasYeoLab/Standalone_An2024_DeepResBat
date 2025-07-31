@@ -385,6 +385,8 @@ def example_wrapper(args):
         manova_args.nb_folds = 1
         manova_wrapper(manova_args)
     if args.print_results:
+        manova_results_path = os.path.join(args.working_dir, 'results',
+                                           'assoc_manova')
         manova_csv_path = os.path.join(manova_results_path, 'MMSE_demean',
                                        args.dataset_pair,
                                        'p_DeepResBat_ADNI-AIBL.csv')
